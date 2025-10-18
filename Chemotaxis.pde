@@ -65,7 +65,7 @@ class Bacteria
 
   void respawn()
   {
-    mySize = 30;
+    mySize = (int)(Math.random()*5) + 25;
     int random = (int)(Math.random()*4 + 1);
 
     if (random == 4) {
